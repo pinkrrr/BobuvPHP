@@ -1,0 +1,118 @@
+/*************************** Основные пункты */
+#mainmenu{
+    height:41px;
+    padding:0;
+    width:1200px;
+    position: relative;
+    z-index:999; /* для отображения подпунктов поверх остальных блоков */
+    margin-top: 20px;
+    border-bottom: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: #e2e2e2;
+    border-top: solid;
+    border-top-width: 1px;
+    border-top-color: #e2e2e2;
+}
+#mainmenu ul, /* сбрасываем поля и отступы у списков */
+#mainmenu ul ul {
+	list-style:none;
+    padding:0;
+    margin:0;
+}
+#mainmenu ul {	
+    clear:left;
+    position:relative;
+    right:50%;
+    height:40px;
+    float:right;
+    text-align:center;
+    font:16px Century Gothic, sans-serif;  
+    color: black;
+}
+#mainmenu ul li {
+    position:relative;
+    left:50%;
+    float:left;
+    height:40px;
+    padding:0;
+    margin:0
+}
+#mainmenu ul li:last-child {
+	border:none;
+	box-shadow:none
+}	
+#mainmenu ul li a {
+    display:block;
+    color: #3c3c3c;
+    text-decoration: none;
+    padding:10px 20px;
+    background-color: white;
+}
+#mainmenu ul li a:hover {
+	color: #ff8181;
+    text-decoration: underline;
+}
+
+#mainmenu ul li ul a:hover {
+	color: #9f9f9f;
+    text-decoration: none;
+}
+
+#mainmenu ul li:hover > ul {
+	opacity: 1;
+	visibility: visible;
+	margin: 0;
+	background-color: #a87ca5;
+	color: white;
+}
+ 
+/*************************** Выпадающие подпункты */
+#mainmenu ul li ul {
+	transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+	-ms-transition: all .2s ease-in-out;
+	-o-transition: all .2s ease-in-out;	
+	text-transform:none;
+	opacity: 0;
+	visibility: hidden;
+    position:absolute;
+    left:0;
+    top:41px;
+    font-size:12px;
+	height:auto;
+    width:100%; 
+    border-top: solid;
+    border-top-width: 1px;
+    border-top-color: #e2e2e2;
+    border-left: solid;
+    border-left-width: 1px;
+    border-left-color: #e2e2e2;
+    border-right: solid;
+    border-right-width: 1px;
+    border-right-color: #e2e2e2;
+}
+#mainmenu ul li ul li {
+	border:none;
+    position:relative;
+	left:0;
+    float:none;
+    height:auto;
+    margin:0;
+    text-align:left !important;
+    border-bottom: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: #e2e2e2;
+}
+#mainmenu ul li ul li:last-child {
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+    border-bottom: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: #e2e2e2;
+}
+#mainmenu ul li ul li a {
+    padding:10px 8px;
+    border:none
+}

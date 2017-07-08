@@ -1,0 +1,187 @@
+.maindiv
+{
+    width: 1200px;
+    min-height: 200px;
+    background-color: white;
+}
+
+.maindiv:before
+{
+    display: inline-block;
+}
+
+.footer
+{
+    background: #f2f2f2;
+    width: 100%;
+    height: 100px;
+    display: inline-block;
+    vertical-align: bottom;
+    margin-top: 50px;
+    color: #2e2e2e;
+    font-family: Helvetica;
+    font-size: 12px;
+    line-height: 1.6;
+}
+
+.footer a
+{
+    color: #ff8181;
+    text-decoration: none;
+}
+
+.footer a:hover
+{
+    text-decoration: underline;
+}
+
+.space
+{
+height: 50px;
+}
+
+.product_name
+{
+font-family: Helvetica;
+font-size: 43px;
+margin-left: 50px;
+color: #2f2f2f;
+}
+
+.buy_button
+{
+    width: 112px;
+    border-color: black;
+    border: solid;
+    border-width: 1px;
+    background-color: white;
+}
+
+.buy_button:hover
+{
+    color: #2f2f2f;
+    text-decoration: underline;
+}
+
+.price
+{
+font-family: Helvetica;
+font-size: 40px;
+font-weight: bold;
+margin: 50px 50px 20px 50px;
+color: #ff8181;
+}
+
+.tovar
+{
+float: left;
+margin: 30px 50px 50px 50px;
+}
+
+.product_title_link
+{
+    color: #916a8e; 
+    font-size: 20px;
+    text-decoration: none;
+    padding-top: 10px;
+}
+
+.product_title_link:hover
+{
+    text-decoration: underline;
+}
+
+.product_in_list
+{
+    margin-left: 40px;
+    margin-top: 30px;
+    float: left;
+    border-width: 1px;
+    border-collapse: collapse;
+    display: block;
+    text-decoration: none;
+}
+
+.shadow_image:hover
+{
+-webkit-box-shadow: 0px 0px 22px -5px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 22px -5px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 22px -5px rgba(0,0,0,0.75);
+}
+
+.show {
+cursor: pointer;
+color: #81755C;
+font-weight: bold;
+}
+
+.table_cart
+{ 
+border-collapse: collapse;
+text-align: center;
+font-family: Helvetica;
+}
+
+.table_cart a
+{
+    text-decoration: none;
+}
+
+.table_cart a:hover
+{
+    text-decoration: underline;
+}
+
+table a:hover
+{
+    text-decoration: none;
+}
+
+.cart
+{
+    color: #3c3c3c;
+    font-family: Arial;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.cart:hover
+{
+    text-decoration: underline;
+}
+
+
+.cart_link a
+{
+    color: #3c3c3c;
+    font-family: Arial;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+.cart_link a:hover
+{
+    text-decoration: underline;
+}
+
+.summa_zakaza
+{
+    color: #3c3c3c;
+    font-family: Arial;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+.btn {
+  font-family: Helvetica;
+  color: #3c3c3c;
+  font-size: 22px;
+  background: #ffffff;
+  border: solid #000000 0px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
